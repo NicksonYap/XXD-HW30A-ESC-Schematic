@@ -53,7 +53,12 @@ HIGH to LOW is 2.8us+550ns = 3.35us
 
 The flash and EEPROM memory obtained from XXD HW30A ESC can be found in the "memory dump" folder.  
 
-Fuse defaults:
-LOW = 0x04
-HIGH = 0x9F
-Lock bits = 0x3F
+Fuse defaults:  
+LOW = 0x04  
+HIGH = 0x9F  
+Lock bits = 0x3F  
+
+Based on http://www.engbedded.com/fusecalc:  
+It uses internal RC Oscillator at 8MHz  
+Brown-out level set at 4.0V  
+SPI program downloading and watch-dog timer on.

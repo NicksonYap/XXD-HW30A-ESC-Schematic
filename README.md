@@ -47,3 +47,13 @@ Based on the values above, the minimum deadtime to switch from:
 LOW to HIGH is 188ns+600ns = 788ns (can be lower since HIGH side turns on relatively slow)  
 HIGH to LOW is 2.8us+550ns = 3.35us  
 (driver delay + MOSFET delay)
+
+
+### Flash and EEPROM dump
+
+The flash and EEPROM memory obtained from XXD HW30A ESC can be found in the "memory dump" folder.  
+
+Fuse defaults:
+LOW = 0x04
+HIGH = 0x9F
+Lock bits = 0x3F
